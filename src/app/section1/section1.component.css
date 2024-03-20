@@ -1,0 +1,16 @@
+.ani{
+    right: 100px; top: 70px; position: absolute;;
+}
+.matter{
+    left: 170px; top: 230px; position: absolute;
+    width:500px;
+    height:300px;
+}
+.matter h1{
+    font-size: 70px;
+    font-family:  cursive;
+}
+.matter p{
+    font-size:20px;
+    font-family: 'Segoe UI';
+}

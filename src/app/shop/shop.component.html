@@ -1,0 +1,11 @@
+<div class="up">
+     <h1>Please Select Your Coffee</h1>
+</div>
+<div class="shop">
+    <div class="coffee" *ngFor="let p of coffee">
+        <img src={{p.image}} alt={{p.title}}>
+        <p>{{p.title}}</p>
+        <button><a routerLink="/details/{{p.id}}">Details</a></button>
+    </div>
+</div>
+

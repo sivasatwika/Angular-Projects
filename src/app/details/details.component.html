@@ -1,0 +1,18 @@
+<div class="up">
+    <h1>........Details........</h1>
+</div>
+<div class="details">
+    <div class="img">
+        <img src={{coffee.image}} alt={{coffee.title}}>
+    </div>
+    <div class="data">
+        <p>{{coffee.description}}</p>
+        <p><strong>Ingredients:</strong></p>
+        <span *ngFor="let c of coffee.ingredients">
+            <span>{{c}} ,</span>
+        </span>
+        <p><strong>{{price|currency:"INR"}}</strong></p>
+        <button><a routerLink="/error">Order</a></button>
+    </div>
+</div>
+

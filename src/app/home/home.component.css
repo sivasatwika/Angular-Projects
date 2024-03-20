@@ -1,0 +1,8 @@
+.container{
+    height: 205vh; /* Set the height of the container to fill the viewport */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack sections vertically */
+}
+app-section1, app-section2 {
+    flex: 1; /* Allow both sections to grow and fill the available space */
+}

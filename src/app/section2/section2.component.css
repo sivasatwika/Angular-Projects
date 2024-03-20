@@ -1,0 +1,36 @@
+.bg-image-section {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/028/216/975/small/light-coffee-break-ambiance-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.content{
+    padding: 200px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+/* Basic button styling */
+.content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color:brown;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect */
+.content button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
